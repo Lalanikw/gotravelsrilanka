@@ -1,0 +1,424 @@
+2024-08-31 05:37:32: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-08-31 05:38:21: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-08-31 06:00:00: Running tweet fetch task...
+2024-08-31 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-08-31 06:00:01: fetch-tweets.js stdout: Fetched 12 tweets, added 2 unique tweets.
+2024-08-31 06:00:01: Updated tweets file with 12 tweets.
+2024-08-31 06:00:01: Tweets saved to public/tweets.json
+2024-08-31 06:00:01: 
+2024-09-01 06:00:00: Running tweet fetch task...
+2024-09-01 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-01 06:00:00: fetch-tweets.js stdout: Fetched 12 tweets, added 2 unique tweets.
+2024-09-01 06:00:00: Updated tweets file with 12 tweets.
+2024-09-01 06:00:00: Tweets saved to public/tweets.json
+2024-09-01 06:00:00: 
+2024-09-02 06:00:00: Running tweet fetch task...
+2024-09-02 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-02 06:00:01: fetch-tweets.js stdout: Fetched 12 tweets, added 3 unique tweets.
+2024-09-02 06:00:01: Updated tweets file with 12 tweets.
+2024-09-02 06:00:01: Tweets saved to public/tweets.json
+2024-09-02 06:00:01: 
+2024-09-02 07:53:50: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-02 08:24:50: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-03 06:00:00: Running tweet fetch task...
+2024-09-03 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-03 06:00:00: fetch-tweets.js stdout: Fetched 12 tweets, added 12 unique tweets.
+2024-09-03 06:00:00: Updated tweets file with 12 tweets.
+2024-09-03 06:00:00: Tweets saved to public/tweets.json
+2024-09-03 06:00:00: 
+2024-09-03 09:06:45: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-03 09:07:17: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-03 09:17:14: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-04 06:00:00: Running tweet fetch task...
+2024-09-04 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-04 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 7 unique tweets.
+2024-09-04 06:00:01: Updated tweets file with 20 tweets.
+2024-09-04 06:00:01: Tweets saved to public/tweets.json
+2024-09-04 06:00:01: Attempting to clear remote tweet cache...
+2024-09-04 06:00:01: Remote tweet cache cleared successfully
+2024-09-04 06:00:01: Updating local cache indicator...
+2024-09-04 06:00:01: Local cache version updated to 2
+2024-09-04 06:00:01: 
+2024-09-05 06:00:00: Running tweet fetch task...
+2024-09-05 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-05 06:00:00: fetch-tweets.js stdout: Fetched 20 tweets, added 4 unique tweets.
+2024-09-05 06:00:00: Updated tweets file with 20 tweets.
+2024-09-05 06:00:00: Tweets saved to public/tweets.json
+2024-09-05 06:00:00: Attempting to clear remote tweet cache...
+2024-09-05 06:00:00: Remote tweet cache cleared successfully
+2024-09-05 06:00:00: Updating local cache indicator...
+2024-09-05 06:00:00: Local cache version updated to 3
+2024-09-05 06:00:00: 
+2024-09-06 06:00:00: Running tweet fetch task...
+2024-09-06 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-06 06:00:00: fetch-tweets.js stdout: Fetched 20 tweets, added 10 unique tweets.
+2024-09-06 06:00:00: Updated tweets file with 20 tweets.
+2024-09-06 06:00:00: Tweets saved to public/tweets.json
+2024-09-06 06:00:00: Attempting to clear remote tweet cache...
+2024-09-06 06:00:00: Remote tweet cache cleared successfully
+2024-09-06 06:00:00: Updating local cache indicator...
+2024-09-06 06:00:00: Local cache version updated to 4
+2024-09-06 06:00:00: 
+2024-09-07 06:00:00: Running tweet fetch task...
+2024-09-07 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-07 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 8 unique tweets.
+2024-09-07 06:00:01: Updated tweets file with 20 tweets.
+2024-09-07 06:00:01: Tweets saved to public/tweets.json
+2024-09-07 06:00:01: Attempting to clear remote tweet cache...
+2024-09-07 06:00:01: Remote tweet cache cleared successfully
+2024-09-07 06:00:01: Updating local cache indicator...
+2024-09-07 06:00:01: Local cache version updated to 6
+2024-09-07 06:00:01: 
+2024-09-08 06:00:00: Running tweet fetch task...
+2024-09-08 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-08 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 6 unique tweets.
+2024-09-08 06:00:01: Updated tweets file with 20 tweets.
+2024-09-08 06:00:01: Tweets saved to public/tweets.json
+2024-09-08 06:00:01: Attempting to clear remote tweet cache...
+2024-09-08 06:00:01: Remote tweet cache cleared successfully
+2024-09-08 06:00:01: Updating local cache indicator...
+2024-09-08 06:00:01: Local cache version updated to 7
+2024-09-08 06:00:01: 
+2024-09-08 06:33:39: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-08 06:34:16: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-08 06:50:13: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-08 06:50:36: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-08 08:19:55: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-08 09:21:31: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-08 09:21:58: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-09 06:00:00: Running tweet fetch task...
+2024-09-09 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-09 06:00:00: fetch-tweets.js stdout: Fetched 20 tweets, added 11 unique tweets.
+2024-09-09 06:00:00: Updated tweets file with 20 tweets.
+2024-09-09 06:00:00: Tweets saved to public/tweets.json
+2024-09-09 06:00:00: Attempting to clear remote tweet cache...
+2024-09-09 06:00:00: Failed to clear remote tweet cache. Status: 405
+2024-09-09 06:00:00: Response: <!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>405: Method Not Allowed</title><meta name="next-head-count" content="3"/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"></script><script src="/_next/static/chunks/webpack-54b389c0ffab7c81.js" defer=""></script><script src="/_next/static/chunks/framework-f66176bb897dc684.js" defer=""></script><script src="/_next/static/chunks/main-ebc7e4d1e0a1ac48.js" defer=""></script><script src="/_next/static/chunks/pages/_app-6a626577ffa902a4.js" defer=""></script><script src="/_next/static/chunks/pages/_error-1be831200e60c5c0.js" defer=""></script><script src="/_next/static/03pMY4SNGlmxx5dmEw8BF/_buildManifest.js" defer=""></script><script src="/_next/static/03pMY4SNGlmxx5dmEw8BF/_ssgManifest.js" defer=""></script></head><body><div id="__next"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div style="line-height:48px"><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top">405</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:28px">Method Not Allowed<!-- -->.</h2></div></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"statusCode":405}},"page":"/_error","query":{},"buildId":"03pMY4SNGlmxx5dmEw8BF","isFallback":false,"isExperimentalCompile":false,"gip":true,"scriptLoader":[]}</script></body></html>
+2024-09-09 06:00:00: Updating local cache indicator...
+2024-09-09 06:00:00: Local cache version updated to 13
+2024-09-09 06:00:00: 
+2024-09-10 06:00:00: Running tweet fetch task...
+2024-09-10 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-10 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 4 unique tweets.
+2024-09-10 06:00:01: Updated tweets file with 20 tweets.
+2024-09-10 06:00:01: Tweets saved to public/tweets.json
+2024-09-10 06:00:01: Attempting to clear remote tweet cache...
+2024-09-10 06:00:01: Failed to clear remote tweet cache. Status: 405
+2024-09-10 06:00:01: Response: <!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>405: Method Not Allowed</title><meta name="next-head-count" content="3"/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"></script><script src="/_next/static/chunks/webpack-54b389c0ffab7c81.js" defer=""></script><script src="/_next/static/chunks/framework-f66176bb897dc684.js" defer=""></script><script src="/_next/static/chunks/main-ebc7e4d1e0a1ac48.js" defer=""></script><script src="/_next/static/chunks/pages/_app-6a626577ffa902a4.js" defer=""></script><script src="/_next/static/chunks/pages/_error-1be831200e60c5c0.js" defer=""></script><script src="/_next/static/03pMY4SNGlmxx5dmEw8BF/_buildManifest.js" defer=""></script><script src="/_next/static/03pMY4SNGlmxx5dmEw8BF/_ssgManifest.js" defer=""></script></head><body><div id="__next"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div style="line-height:48px"><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top">405</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:28px">Method Not Allowed<!-- -->.</h2></div></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"statusCode":405}},"page":"/_error","query":{},"buildId":"03pMY4SNGlmxx5dmEw8BF","isFallback":false,"isExperimentalCompile":false,"gip":true,"scriptLoader":[]}</script></body></html>
+2024-09-10 06:00:01: Updating local cache indicator...
+2024-09-10 06:00:01: Local cache version updated to 14
+2024-09-10 06:00:01: 
+2024-09-11 06:00:00: Running tweet fetch task...
+2024-09-11 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-11 06:00:00: fetch-tweets.js stdout: Fetched 20 tweets, added 5 unique tweets.
+2024-09-11 06:00:00: Updated tweets file with 20 tweets.
+2024-09-11 06:00:00: Tweets saved to public/tweets.json
+2024-09-11 06:00:00: Attempting to clear remote tweet cache...
+2024-09-11 06:00:00: Failed to clear remote tweet cache. Status: 405
+2024-09-11 06:00:00: Response: <!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>405: Method Not Allowed</title><meta name="next-head-count" content="3"/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"></script><script src="/_next/static/chunks/webpack-54b389c0ffab7c81.js" defer=""></script><script src="/_next/static/chunks/framework-f66176bb897dc684.js" defer=""></script><script src="/_next/static/chunks/main-ebc7e4d1e0a1ac48.js" defer=""></script><script src="/_next/static/chunks/pages/_app-6a626577ffa902a4.js" defer=""></script><script src="/_next/static/chunks/pages/_error-1be831200e60c5c0.js" defer=""></script><script src="/_next/static/03pMY4SNGlmxx5dmEw8BF/_buildManifest.js" defer=""></script><script src="/_next/static/03pMY4SNGlmxx5dmEw8BF/_ssgManifest.js" defer=""></script></head><body><div id="__next"><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div style="line-height:48px"><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top">405</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:28px">Method Not Allowed<!-- -->.</h2></div></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"statusCode":405}},"page":"/_error","query":{},"buildId":"03pMY4SNGlmxx5dmEw8BF","isFallback":false,"isExperimentalCompile":false,"gip":true,"scriptLoader":[]}</script></body></html>
+2024-09-11 06:00:00: Updating local cache indicator...
+2024-09-11 06:00:00: Local cache version updated to 15
+2024-09-11 06:00:00: 
+2024-09-12 06:00:00: Running tweet fetch task...
+2024-09-12 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-12 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 2 unique tweets.
+2024-09-12 06:00:01: Updated tweets file with 20 tweets.
+2024-09-12 06:00:01: Tweets saved to public/tweets.json
+2024-09-12 06:00:01: Attempting to clear remote tweet cache...
+2024-09-12 06:00:01: Clear cache status: 200
+2024-09-12 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Thu, 12 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-12 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-12 06:00:01: Remote tweet cache cleared successfully
+2024-09-12 06:00:01: Updating local cache indicator...
+2024-09-12 06:00:01: Local cache version updated to 23
+2024-09-12 06:00:01: 
+2024-09-13 04:51:36: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-13 06:00:00: Running tweet fetch task...
+2024-09-13 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-13 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 2 unique tweets.
+2024-09-13 06:00:01: Updated tweets file with 20 tweets.
+2024-09-13 06:00:01: Tweets saved to public/tweets.json
+2024-09-13 06:00:01: Attempting to clear remote tweet cache...
+2024-09-13 06:00:01: Clear cache status: 200
+2024-09-13 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Fri, 13 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-13 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-13 06:00:01: Remote tweet cache cleared successfully
+2024-09-13 06:00:01: Updating local cache indicator...
+2024-09-13 06:00:01: Local cache version updated to 27
+2024-09-13 06:00:01: 
+2024-09-14 06:00:00: Running tweet fetch task...
+2024-09-14 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-14 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 8 unique tweets.
+2024-09-14 06:00:01: Updated tweets file with 20 tweets.
+2024-09-14 06:00:01: Tweets saved to public/tweets.json
+2024-09-14 06:00:01: Attempting to clear remote tweet cache...
+2024-09-14 06:00:01: Clear cache status: 200
+2024-09-14 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Sat, 14 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-14 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-14 06:00:01: Remote tweet cache cleared successfully
+2024-09-14 06:00:01: Updating local cache indicator...
+2024-09-14 06:00:01: Local cache version updated to 30
+2024-09-14 06:00:01: 
+2024-09-15 06:00:00: Running tweet fetch task...
+2024-09-15 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-15 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 4 unique tweets.
+2024-09-15 06:00:01: Updated tweets file with 20 tweets.
+2024-09-15 06:00:01: Tweets saved to public/tweets.json
+2024-09-15 06:00:01: Attempting to clear remote tweet cache...
+2024-09-15 06:00:01: Clear cache status: 200
+2024-09-15 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Sun, 15 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-15 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-15 06:00:01: Remote tweet cache cleared successfully
+2024-09-15 06:00:01: Updating local cache indicator...
+2024-09-15 06:00:01: Local cache version updated to 33
+2024-09-15 06:00:01: 
+2024-09-16 06:00:00: Running tweet fetch task...
+2024-09-16 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-16 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 4 unique tweets.
+2024-09-16 06:00:01: Updated tweets file with 20 tweets.
+2024-09-16 06:00:01: Tweets saved to public/tweets.json
+2024-09-16 06:00:01: Attempting to clear remote tweet cache...
+2024-09-16 06:00:01: Clear cache status: 200
+2024-09-16 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Mon, 16 Sep 2024 06:00:00 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-16 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-16 06:00:01: Remote tweet cache cleared successfully
+2024-09-16 06:00:01: Updating local cache indicator...
+2024-09-16 06:00:01: Local cache version updated to 36
+2024-09-16 06:00:01: 
+2024-09-16 09:33:02: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-16 09:49:27: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-16 09:51:13: Tweet scheduler started. Will fetch tweets daily at 6:00 AM.
+2024-09-17 06:00:00: Running tweet fetch task...
+2024-09-17 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-17 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 2 unique tweets.
+2024-09-17 06:00:01: Updated tweets file with 20 tweets.
+2024-09-17 06:00:01: Tweets saved to public/tweets.json
+2024-09-17 06:00:01: Attempting to clear remote tweet cache...
+2024-09-17 06:00:01: Clear cache status: 200
+2024-09-17 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Tue, 17 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-17 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-17 06:00:01: Remote tweet cache cleared successfully
+2024-09-17 06:00:01: Updating local cache indicator...
+2024-09-17 06:00:01: Local cache version updated to 4
+2024-09-17 06:00:01: 
+2024-09-18 06:00:00: Running tweet fetch task...
+2024-09-18 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-18 06:00:00: fetch-tweets.js stdout: Fetched 20 tweets, added 13 unique tweets.
+2024-09-18 06:00:00: Updated tweets file with 20 tweets.
+2024-09-18 06:00:00: Tweets saved to public/tweets.json
+2024-09-18 06:00:00: Attempting to clear remote tweet cache...
+2024-09-18 06:00:00: Clear cache status: 200
+2024-09-18 06:00:00: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Wed, 18 Sep 2024 06:00:00 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-18 06:00:00: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-18 06:00:00: Remote tweet cache cleared successfully
+2024-09-18 06:00:00: Updating local cache indicator...
+2024-09-18 06:00:00: Local cache version updated to 6
+2024-09-18 06:00:00: 
+2024-09-19 06:00:00: Running tweet fetch task...
+2024-09-19 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-19 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 9 unique tweets.
+2024-09-19 06:00:01: Updated tweets file with 20 tweets.
+2024-09-19 06:00:01: Tweets saved to public/tweets.json
+2024-09-19 06:00:01: Attempting to clear remote tweet cache...
+2024-09-19 06:00:01: Clear cache status: 200
+2024-09-19 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Thu, 19 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-19 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-19 06:00:01: Remote tweet cache cleared successfully
+2024-09-19 06:00:01: Updating local cache indicator...
+2024-09-19 06:00:01: Local cache version updated to 9
+2024-09-19 06:00:01: 
+2024-09-20 06:00:00: Running tweet fetch task...
+2024-09-20 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-20 06:00:00: fetch-tweets.js stdout: Fetched 20 tweets, added 8 unique tweets.
+2024-09-20 06:00:00: Updated tweets file with 20 tweets.
+2024-09-20 06:00:00: Tweets saved to public/tweets.json
+2024-09-20 06:00:00: Attempting to clear remote tweet cache...
+2024-09-20 06:00:00: Clear cache status: 200
+2024-09-20 06:00:00: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Fri, 20 Sep 2024 06:00:00 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-20 06:00:00: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-20 06:00:00: Remote tweet cache cleared successfully
+2024-09-20 06:00:00: Updating local cache indicator...
+2024-09-20 06:00:00: Local cache version updated to 12
+2024-09-20 06:00:00: 
+2024-09-21 06:00:00: Running tweet fetch task...
+2024-09-21 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-21 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 3 unique tweets.
+2024-09-21 06:00:01: Updated tweets file with 20 tweets.
+2024-09-21 06:00:01: Tweets saved to public/tweets.json
+2024-09-21 06:00:01: Attempting to clear remote tweet cache...
+2024-09-21 06:00:01: Clear cache status: 200
+2024-09-21 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Sat, 21 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-21 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-21 06:00:01: Remote tweet cache cleared successfully
+2024-09-21 06:00:01: Updating local cache indicator...
+2024-09-21 06:00:01: Local cache version updated to 15
+2024-09-21 06:00:01: 
+2024-09-22 06:00:00: Running tweet fetch task...
+2024-09-22 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-22 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 14 unique tweets.
+2024-09-22 06:00:01: Updated tweets file with 20 tweets.
+2024-09-22 06:00:01: Tweets saved to public/tweets.json
+2024-09-22 06:00:01: Attempting to clear remote tweet cache...
+2024-09-22 06:00:01: Clear cache status: 200
+2024-09-22 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Sun, 22 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-22 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-22 06:00:01: Remote tweet cache cleared successfully
+2024-09-22 06:00:01: Updating local cache indicator...
+2024-09-22 06:00:01: Local cache version updated to 18
+2024-09-22 06:00:01: 
+2024-09-23 06:00:00: Running tweet fetch task...
+2024-09-23 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-23 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 7 unique tweets.
+2024-09-23 06:00:01: Updated tweets file with 20 tweets.
+2024-09-23 06:00:01: Tweets saved to public/tweets.json
+2024-09-23 06:00:01: Attempting to clear remote tweet cache...
+2024-09-23 06:00:01: Clear cache status: 200
+2024-09-23 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Mon, 23 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-23 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-23 06:00:01: Remote tweet cache cleared successfully
+2024-09-23 06:00:01: Updating local cache indicator...
+2024-09-23 06:00:01: Local cache version updated to 21
+2024-09-23 06:00:01: 
+2024-09-24 06:00:00: Running tweet fetch task...
+2024-09-24 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-24 06:00:00: fetch-tweets.js stdout: Fetched 20 tweets, added 12 unique tweets.
+2024-09-24 06:00:00: Updated tweets file with 20 tweets.
+2024-09-24 06:00:00: Tweets saved to public/tweets.json
+2024-09-24 06:00:00: Attempting to clear remote tweet cache...
+2024-09-24 06:00:00: Clear cache status: 200
+2024-09-24 06:00:00: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Tue, 24 Sep 2024 06:00:00 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-24 06:00:00: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-24 06:00:00: Remote tweet cache cleared successfully
+2024-09-24 06:00:00: Updating local cache indicator...
+2024-09-24 06:00:00: Local cache version updated to 24
+2024-09-24 06:00:00: 
+2024-09-25 06:00:00: Running tweet fetch task...
+2024-09-25 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-25 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 15 unique tweets.
+2024-09-25 06:00:01: Updated tweets file with 20 tweets.
+2024-09-25 06:00:01: Tweets saved to public/tweets.json
+2024-09-25 06:00:01: Attempting to clear remote tweet cache...
+2024-09-25 06:00:01: Clear cache status: 200
+2024-09-25 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Wed, 25 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-25 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-25 06:00:01: Remote tweet cache cleared successfully
+2024-09-25 06:00:01: Updating local cache indicator...
+2024-09-25 06:00:01: Local cache version updated to 27
+2024-09-25 06:00:01: 
+2024-09-26 06:00:00: Running tweet fetch task...
+2024-09-26 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-26 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 13 unique tweets.
+2024-09-26 06:00:01: Updated tweets file with 20 tweets.
+2024-09-26 06:00:01: Tweets saved to public/tweets.json
+2024-09-26 06:00:01: Attempting to clear remote tweet cache...
+2024-09-26 06:00:01: Clear cache status: 200
+2024-09-26 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Thu, 26 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-26 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-26 06:00:01: Remote tweet cache cleared successfully
+2024-09-26 06:00:01: Updating local cache indicator...
+2024-09-26 06:00:01: Local cache version updated to 30
+2024-09-26 06:00:01: 
+2024-09-27 06:00:00: Running tweet fetch task...
+2024-09-27 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-27 06:00:00: fetch-tweets.js stdout: Fetched 20 tweets, added 20 unique tweets.
+2024-09-27 06:00:00: Updated tweets file with 20 tweets.
+2024-09-27 06:00:00: Tweets saved to public/tweets.json
+2024-09-27 06:00:00: Attempting to clear remote tweet cache...
+2024-09-27 06:00:00: Clear cache status: 200
+2024-09-27 06:00:00: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Fri, 27 Sep 2024 06:00:00 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-27 06:00:00: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-27 06:00:00: Remote tweet cache cleared successfully
+2024-09-27 06:00:00: Updating local cache indicator...
+2024-09-27 06:00:00: Local cache version updated to 33
+2024-09-27 06:00:00: 
+2024-09-28 06:00:00: Running tweet fetch task...
+2024-09-28 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-28 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 14 unique tweets.
+2024-09-28 06:00:01: Updated tweets file with 20 tweets.
+2024-09-28 06:00:01: Tweets saved to public/tweets.json
+2024-09-28 06:00:01: Attempting to clear remote tweet cache...
+2024-09-28 06:00:01: Clear cache status: 200
+2024-09-28 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Sat, 28 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-28 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-28 06:00:01: Remote tweet cache cleared successfully
+2024-09-28 06:00:01: Updating local cache indicator...
+2024-09-28 06:00:01: Local cache version updated to 36
+2024-09-28 06:00:01: 
+2024-09-29 06:00:00: Running tweet fetch task...
+2024-09-29 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-29 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 6 unique tweets.
+2024-09-29 06:00:01: Updated tweets file with 20 tweets.
+2024-09-29 06:00:01: Tweets saved to public/tweets.json
+2024-09-29 06:00:01: Attempting to clear remote tweet cache...
+2024-09-29 06:00:01: Clear cache status: 200
+2024-09-29 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Sun, 29 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-29 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-29 06:00:01: Remote tweet cache cleared successfully
+2024-09-29 06:00:01: Updating local cache indicator...
+2024-09-29 06:00:01: Local cache version updated to 39
+2024-09-29 06:00:01: 
+2024-09-30 06:00:00: Running tweet fetch task...
+2024-09-30 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-09-30 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 8 unique tweets.
+2024-09-30 06:00:01: Updated tweets file with 20 tweets.
+2024-09-30 06:00:01: Tweets saved to public/tweets.json
+2024-09-30 06:00:01: Attempting to clear remote tweet cache...
+2024-09-30 06:00:01: Clear cache status: 200
+2024-09-30 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Mon, 30 Sep 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-09-30 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-09-30 06:00:01: Remote tweet cache cleared successfully
+2024-09-30 06:00:01: Updating local cache indicator...
+2024-09-30 06:00:01: Local cache version updated to 42
+2024-09-30 06:00:01: 
+2024-10-01 06:00:00: Running tweet fetch task...
+2024-10-01 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-10-01 06:00:00: fetch-tweets.js stdout: Fetched 20 tweets, added 20 unique tweets.
+2024-10-01 06:00:00: Updated tweets file with 20 tweets.
+2024-10-01 06:00:00: Tweets saved to public/tweets.json
+2024-10-01 06:00:00: Attempting to clear remote tweet cache...
+2024-10-01 06:00:00: Clear cache status: 200
+2024-10-01 06:00:00: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Tue, 01 Oct 2024 06:00:00 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-10-01 06:00:00: Clear cache response: {"message":"Cache cleared successfully"}
+2024-10-01 06:00:00: Remote tweet cache cleared successfully
+2024-10-01 06:00:00: Updating local cache indicator...
+2024-10-01 06:00:00: Local cache version updated to 45
+2024-10-01 06:00:00: 
+2024-10-02 06:00:00: Running tweet fetch task...
+2024-10-02 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-10-02 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 20 unique tweets.
+2024-10-02 06:00:01: Updated tweets file with 20 tweets.
+2024-10-02 06:00:01: Tweets saved to public/tweets.json
+2024-10-02 06:00:01: Attempting to clear remote tweet cache...
+2024-10-02 06:00:01: Clear cache status: 200
+2024-10-02 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Wed, 02 Oct 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-10-02 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-10-02 06:00:01: Remote tweet cache cleared successfully
+2024-10-02 06:00:01: Updating local cache indicator...
+2024-10-02 06:00:01: Local cache version updated to 48
+2024-10-02 06:00:01: 
+2024-10-03 06:00:00: Running tweet fetch task...
+2024-10-03 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-10-03 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 10 unique tweets.
+2024-10-03 06:00:01: Updated tweets file with 20 tweets.
+2024-10-03 06:00:01: Tweets saved to public/tweets.json
+2024-10-03 06:00:01: Attempting to clear remote tweet cache...
+2024-10-03 06:00:01: Clear cache status: 200
+2024-10-03 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Thu, 03 Oct 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-10-03 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-10-03 06:00:01: Remote tweet cache cleared successfully
+2024-10-03 06:00:01: Updating local cache indicator...
+2024-10-03 06:00:01: Local cache version updated to 51
+2024-10-03 06:00:01: 
+2024-10-04 06:00:00: Running tweet fetch task...
+2024-10-04 06:00:00: Executing script: /home/ubuntu/apps/gotravel/scripts/fetch-tweets.js
+2024-10-04 06:00:01: fetch-tweets.js stdout: Fetched 20 tweets, added 20 unique tweets.
+2024-10-04 06:00:01: Updated tweets file with 20 tweets.
+2024-10-04 06:00:01: Tweets saved to public/tweets.json
+2024-10-04 06:00:01: Attempting to clear remote tweet cache...
+2024-10-04 06:00:01: Clear cache status: 200
+2024-10-04 06:00:01: Clear cache headers: {"connection":["close"],"content-type":["application/json"],"date":["Fri, 04 Oct 2024 06:00:01 GMT"],"server":["nginx/1.18.0 (Ubuntu)"],"transfer-encoding":["chunked"],"vary":["RSC, Next-Router-State-Tree, Next-Router-Prefetch"]}
+2024-10-04 06:00:01: Clear cache response: {"message":"Cache cleared successfully"}
+2024-10-04 06:00:01: Remote tweet cache cleared successfully
+2024-10-04 06:00:01: Updating local cache indicator...
+2024-10-04 06:00:01: Local cache version updated to 54
+2024-10-04 06:00:01: 

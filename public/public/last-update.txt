@@ -1,0 +1,137 @@
+{
+  "tweets": [
+    {
+      "id": "1830814626038063434",
+      "text": "What an unfortunate situation. The first impression tourists get upon entering the country is crucial, especially when tourism is a major contributor to the economy. The relevant authorities should have been better prepared for this crisis.\n#VisitSriLanka #SriLankaTourism https://t.co/wZMF8GTV9g",
+      "createdAt": "2024-09-03T03:46:36.000Z",
+      "author": {
+        "id": "82419215",
+        "name": "Zahran Careem",
+        "username": "zahranc"
+      },
+      "url": "https://twitter.com/82419215/status/1830814626038063434"
+    },
+    {
+      "id": "1830808933943926856",
+      "text": "@Dailymirror_SL #visitsrilanka to experience the long standing queues",
+      "createdAt": "2024-09-03T03:23:59.000Z",
+      "author": {
+        "id": "411506789",
+        "name": "Pimpilikki",
+        "username": "Pimpilikki"
+      },
+      "url": "https://twitter.com/411506789/status/1830808933943926856"
+    },
+    {
+      "id": "1830638159023235581",
+      "text": "Visa free policy for 38 countries comes into immediate effect \n#LKA #SriLanka #VisitSriLanka \nhttps://t.co/aay8Nkx2OH https://t.co/V6zaJ6Ubh4",
+      "createdAt": "2024-09-02T16:05:23.000Z",
+      "author": {
+        "id": "1123248342333575169",
+        "name": "KalhanRan",
+        "username": "KalhanRan"
+      },
+      "url": "https://twitter.com/1123248342333575169/status/1830638159023235581"
+    },
+    {
+      "id": "1830627052493615224",
+      "text": "Heaven ? No, it's SRI LANKA. \nSo far, this is the best place I have visited in Sri Lanka! ❤️\n(7000 ft ⬆️)\n\n#nature #mountains  #visitsrilanka #haputale https://t.co/Rpl9xCB2gp",
+      "createdAt": "2024-09-02T15:21:15.000Z",
+      "author": {
+        "id": "1510937178146279426",
+        "name": "Matheesha Pathirana",
+        "username": "matheesha_81"
+      },
+      "url": "https://twitter.com/1510937178146279426/status/1830627052493615224"
+    },
+    {
+      "id": "1830623996536361037",
+      "text": "#Design77#Photography #Art#FreeDownload #VisitSriLanka #blogContents#TechGadgets #AffiliateProducts #DoItYourself#MacroPhotography#OnlineSelling https://t.co/1LccoYUxvY via @pinterest",
+      "createdAt": "2024-09-02T15:09:06.000Z",
+      "author": {
+        "id": "1751291419317448704",
+        "name": "CeylonArtz",
+        "username": "affiliatemax77"
+      },
+      "url": "https://twitter.com/1751291419317448704/status/1830623996536361037"
+    },
+    {
+      "id": "1830612879709757585",
+      "text": "Hevan? No, it's SRI LANKA. \nSo far, this is the best place I have visited in Sri Lanka! ❤️\n(7000 ft ⬆️)\n\n#nature #mountains  #visitsrilanka #haputale https://t.co/wGlJpPsjfu",
+      "createdAt": "2024-09-02T14:24:56.000Z",
+      "author": {
+        "id": "1510937178146279426",
+        "name": "Matheesha Pathirana",
+        "username": "matheesha_81"
+      },
+      "url": "https://twitter.com/1510937178146279426/status/1830612879709757585"
+    },
+    {
+      "id": "1830597635436392524",
+      "text": "Evenings are a gift, a time to reflect, find peace...\n\n#visitsrilanka https://t.co/zdNBBWVKlz",
+      "createdAt": "2024-09-02T13:24:21.000Z",
+      "author": {
+        "id": "1399860734",
+        "name": "සංක 🧛‍♂️🇱🇰",
+        "username": "nuwandevsl"
+      },
+      "url": "https://twitter.com/1399860734/status/1830597635436392524"
+    },
+    {
+      "id": "1830564648686596374",
+      "text": ". #VisitSrilanka https://t.co/UnxEZtombW",
+      "createdAt": "2024-09-02T11:13:17.000Z",
+      "author": {
+        "id": "1345664870348255232",
+        "name": "Charith Hapuarachchi",
+        "username": "CharithHapuara1"
+      },
+      "url": "https://twitter.com/1345664870348255232/status/1830564648686596374"
+    },
+    {
+      "id": "1830523047604060353",
+      "text": "Australian Family tour of 16 days in Sri Lanka\n#bestoflankatravels #bestoflanka #srilankanexpeditions #visitsrilanka #srilankatravel #dmcsrilanka #destinationmanagementcompany #destinationmanagement #happyguests #sucessstory https://t.co/wHZzlHdVNU",
+      "createdAt": "2024-09-02T08:27:58.000Z",
+      "author": {
+        "id": "1053241997799120896",
+        "name": "Best of Lanka",
+        "username": "BestofLanka1"
+      },
+      "url": "https://twitter.com/1053241997799120896/status/1830523047604060353"
+    },
+    {
+      "id": "1830522622398095486",
+      "text": "20 days Amazing Family Holiday in Sri Lanka with Best of Lanka   \n#bestoflankatravels #bestoflanka #srilankanexpeditions #visitsrilanka #srilankatravel #dmcsrilanka #destinationmanagementcompany #destinationmanagement #happyguests #sucessstory https://t.co/tooUynf5mz",
+      "createdAt": "2024-09-02T08:26:17.000Z",
+      "author": {
+        "id": "1053241997799120896",
+        "name": "Best of Lanka",
+        "username": "BestofLanka1"
+      },
+      "url": "https://twitter.com/1053241997799120896/status/1830522622398095486"
+    },
+    {
+      "id": "1830522497630106067",
+      "text": "20 days Amazing Family Holiday in Sri Lanka with Best of Lanka  \n#bestoflankatravels #bestoflanka #srilankanexpeditions #visitsrilanka #srilankatravel #dmcsrilanka #destinationmanagementcompany #destinationmanagement #happyguests #sucessstory https://t.co/mcjsyBxaYl",
+      "createdAt": "2024-09-02T08:25:47.000Z",
+      "author": {
+        "id": "1053241997799120896",
+        "name": "Best of Lanka",
+        "username": "BestofLanka1"
+      },
+      "url": "https://twitter.com/1053241997799120896/status/1830522497630106067"
+    },
+    {
+      "id": "1830522408387903763",
+      "text": "20 days Amazing Family Holiday in Sri Lanka with Best of Lanka \n#bestoflankatravels #bestoflanka #srilankanexpeditions #visitsrilanka #srilankatravel #dmcsrilanka #destinationmanagementcompany #destinationmanagement #happyguests #sucessstory https://t.co/dTQRlV5t7P",
+      "createdAt": "2024-09-02T08:25:26.000Z",
+      "author": {
+        "id": "1053241997799120896",
+        "name": "Best of Lanka",
+        "username": "BestofLanka1"
+      },
+      "url": "https://twitter.com/1053241997799120896/status/1830522408387903763"
+    }
+  ],
+  "fetchedAt": "2024-09-03T05:11:31.056Z"
+}

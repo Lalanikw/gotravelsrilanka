@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/api/google-nearby-place",
+    "app/api/contact/route.js",
+    "app/lib/mongodb.jsx",
+    "app/Places/page.jsx",
+    "app/page.tsx",
+    "components/InformationCard.jsx",
+    "components/Chatbot.jsx",
+    "components/ContactForm.jsx",
+    "components/GoogleMapView.jsx",
+    "components/Header.jsx",
+    "components/Hero.jsx",
+    "components/Marker.jsx",
+    "components/LandingBottom.jsx",
+    "context/UserLocationContext.jsx",
+    "context/PlaceListContext.jsx",
+    "app/api/google-place-api/route.js",
+    "components/PlaceList.tsx",
+    "app/models/contact.js]",
+    "app/api/openai/generate-answer.js",
+    "components/ask.ts",
+    "components/ask.js",
+    "react.d.ts",
+    "app/api/ask/route.ts",
+    "components/Attractions.jsx",
+    "components/BotBubble.jsx",
+    "components/ask.jsx",
+    "components/ui/textarea.tsx",
+    "components/ui/card.jsx",
+    "components/ui/button.jsx",
+    "components/Landing.jsx"
+  ],
+  "exclude": ["node_modules"]
+}
