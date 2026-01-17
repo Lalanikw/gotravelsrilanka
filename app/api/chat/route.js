@@ -1,58 +1,62 @@
-import connectDB from "../../lib/mongodb";
-import Contact from "../../models/contact";
-import { NextResponse } from "next/server";
+//src/app/api/chat/route.js
 
-export async function POST(req) {
+import OpenAI from "openai";
+
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+});
+
+export async function POST(request) {
+  console.log('Chat API route called');
+  
   try {
-    const { fullname, email, message } = await req.json();
+    if (!process.env.OPENAI_API_KEY) {
+      console.error('OPENAI_API_KEY not found');
+      return Response.json({ 
+        error: 'API key not configured. Please add OPENAI_API_KEY to environment variables.' 
+      }, { status: 500 });
+    }
 
-    // Validate input
-    if (!fullname || !email || !message) {
-      return NextResponse.json({
-        msg: ['All fields are required'],
-        success: false,
+    const body = await request.json();
+    const { message } = body;
+    
+    console.log('Received message:', message);
+    
+    if (!message || message.trim() === '') {
+      return Response.json({ 
+        error: 'Message is required' 
       }, { status: 400 });
     }
 
-    console.log('Parsed data:', { fullname, email, message });
+    // Call OpenAI API
+    const completion = await openai.chat.completions.create({
+      model: "gpt-3.5-turbo",
+      messages: [
+        {
+          role: "system",
+          content: "You are a helpful travel assistant for Sri Lanka tourism. Provide friendly, accurate information about Sri Lankan destinations, culture, and travel tips."
+        },
+        {
+          role: "user",
+          content: message
+        }
+      ],
+      max_tokens: 500,
+      temperature: 0.7,
+    });
 
-    // Connect to MongoDB
-    await connectDB();
-    console.log('MongoDB connected');
-
-    // Create contact
-    const contact = await Contact.create({ fullname, email, message });
-    console.log('Contact created:', contact);
-
-    return NextResponse.json({
-      msg: ['Message sent successfully! We will get back to you soon.'],
-      success: true,
-    }, { status: 200 });
-
+    const reply = completion.choices[0].message.content;
+    console.log('Generated response:', reply);
+    
+    return Response.json({ reply });
+    
   } catch (error) {
     console.error('API Error:', error);
-
-    // Check if it's a validation error
-    if (error.name === 'ValidationError') {
-      const messages = Object.values(error.errors).map(err => err.message);
-      return NextResponse.json({
-        msg: messages,
-        success: false,
-      }, { status: 400 });
-    }
-
-    // MongoDB connection error
-    if (error.message.includes('buffering timed out')) {
-      return NextResponse.json({
-        msg: ['Database connection timeout. Please try again.'],
-        success: false,
-      }, { status: 503 });
-    }
-
-    // Generic error
-    return NextResponse.json({
-      msg: ['Something went wrong. Please try again later.'],
-      success: false,
+    console.error('Error details:', error.message);
+    
+    return Response.json({ 
+      error: 'Failed to generate response',
+      details: error.message 
     }, { status: 500 });
   }
 }
