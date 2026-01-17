@@ -1,46 +1,58 @@
-//src/app/api/chat/route.js
+import connectDB from "../../lib/mongodb";
+import Contact from "../../models/contact";
+import { NextResponse } from "next/server";
 
-import OpenAI from "openai";
-
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
-
-export async function POST(request) {
-  console.log('API route called');
-  
+export async function POST(req) {
   try {
-    if (!process.env.OPENAI_API_KEY) {
-      console.error('OPENAI_API_KEY not found');
-      return Response.json({ error: 'API key not configured' }, { status: 500 });
+    const { fullname, email, message } = await req.json();
+
+    // Validate input
+    if (!fullname || !email || !message) {
+      return NextResponse.json({
+        msg: ['All fields are required'],
+        success: false,
+      }, { status: 400 });
     }
 
-    const body = await request.json();
-    const { message } = body;
-    
-    console.log('Received message:', message);
-    
-    if (!message) {
-      return Response.json({ error: 'Message is required' }, { status: 400 });
-    }
+    console.log('Parsed data:', { fullname, email, message });
 
-    const completion = await openai.chat.completions.create({
-      model: "gpt-3.5-turbo",
-      messages: [{ role: "user", content: message }],
-    });
+    // Connect to MongoDB
+    await connectDB();
+    console.log('MongoDB connected');
 
-    const reply = completion.choices[0].message.content;
-    console.log('Generated response:', reply);
-    
-    return Response.json({ reply });
-    
+    // Create contact
+    const contact = await Contact.create({ fullname, email, message });
+    console.log('Contact created:', contact);
+
+    return NextResponse.json({
+      msg: ['Message sent successfully! We will get back to you soon.'],
+      success: true,
+    }, { status: 200 });
+
   } catch (error) {
     console.error('API Error:', error);
-    console.error('Error message:', error.message);
-    
-    return Response.json({ 
-      error: 'Failed to generate response',
-      details: error.message 
+
+    // Check if it's a validation error
+    if (error.name === 'ValidationError') {
+      const messages = Object.values(error.errors).map(err => err.message);
+      return NextResponse.json({
+        msg: messages,
+        success: false,
+      }, { status: 400 });
+    }
+
+    // MongoDB connection error
+    if (error.message.includes('buffering timed out')) {
+      return NextResponse.json({
+        msg: ['Database connection timeout. Please try again.'],
+        success: false,
+      }, { status: 503 });
+    }
+
+    // Generic error
+    return NextResponse.json({
+      msg: ['Something went wrong. Please try again later.'],
+      success: false,
     }, { status: 500 });
   }
 }
