@@ -1,5 +1,6 @@
 "use client"
 
+import ChatBot from '../components/Chatbot';
 import Landing from '../components/Landing'
 import LandingBottom from '../components/LandingBottom';
 import Image from 'next/image';
@@ -10,6 +11,9 @@ export default function Home() {
 
   return (
     <div className=''>
+      <div>
+        <ChatBot/>
+      </div>
         <div className='text-left'>
         <Landing />
 
