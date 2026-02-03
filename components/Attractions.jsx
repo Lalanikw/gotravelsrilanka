@@ -371,7 +371,7 @@ The mountain is located in the southern reaches of the Central Highlands soaring
                             <div className="flex p-1">
                                 <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                     <Image className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
-                                        src="/yala.jpg" alt="yala national park" width={450} height={100} />
+                                        src="/yala.JPG" alt="yala national park" width={450} height={100} />
                                     <div></div>
                                     <div className="p-3 text-justify ">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Tissamaharama</h2>
