@@ -15,7 +15,7 @@ function Attractions() {
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className='flex'>
                                 <Image className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
-                                src="/will2.jpg" alt="Wilpattu" width={450} height={100} />
+                                src="/will2.JPG" alt="Wilpattu" width={450} height={100} />
                                 <Image className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                       src="/will3.jpg" alt="Willpattu" width={450} height={100} />
                                   <Image className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
