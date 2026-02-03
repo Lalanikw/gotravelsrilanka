@@ -52,13 +52,13 @@ function LandingBottom() {
                   <div className='text-justify'>
                 <div className=' flex flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] text-justify'>
                         <div>
-                          <p className='p-5'><strong className='text-blue-900 text-2xl'>S</strong>ri Lanka celebrates a wide range of holidays and events, reflecting its multicultural and multi-religious citizens.</p>
+                          <p className='p-5'><strong className='text-blue-900 text-2xl'>S</strong>ri Lanka celebrates a wide range of holidays and events, reflecting its multicultural and multi-religious heritage.</p>
                           
                 <p><strong className='text-blue-900 text-md'>Spiritual</strong> celebrations include:
-                  <br></br>Vesak: Buddhist celebration of Buddha`s brith, enlightenment, and death.
+                  <br></br>Vesak: Buddhist celebration of Buddha`s birth, enlightenment, and death.
                   The Poya Days: Monthly Buddhist observances on full moon days.
                   <br></br>Deepavali: Hindu festival of lights.
-                  <br></br>Christmas: Christain celebration of the birth of Jesus Christ.
+                  <br></br>Christmas: Christian celebration of the birth of Jesus Christ.
                   <br></br>Eid al-Fitr and Eid al-Adha: Muslim festivals marking the end of Ramadan and commemorating
                 Ibrahim`s willingness to sacrifice his son, respectively</p>
                 <br></br>
