@@ -31,7 +31,7 @@ function Footer() {
         </div>
 
         <div className="col-span-2 lg:col-span-1 pt-10">
-          <p className="text-sm">&copy; 2024 gotravelsrilanka. All rights reserved.</p>
+          <p className="text-sm">&copy; 2026 gotravelsrilanka. All rights reserved.</p>
         </div>
       </div>
 
