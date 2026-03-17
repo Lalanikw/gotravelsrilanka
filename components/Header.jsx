@@ -7,8 +7,28 @@ import React, { useState } from 'react'
 function Header() {
 
         const [toggle, setToggle] = useState(false);
+        const [bannerVisible, setBannerVisible] = useState(true);
 
   return (
+    <div>
+      {bannerVisible && (
+        <div className='flex items-center justify-between bg-amber-50 border-b border-amber-300 px-4 py-2 text-sm text-amber-800'>
+          <div className='flex items-center gap-2'>
+            <span className='text-amber-500 text-base'>&#9432;</span>
+            <span>
+              Middle East flight disruptions may affect your journey —{' '}
+              <Link href='/Blogpage' className='underline font-semibold hover:text-amber-900'>read travel update</Link>
+            </span>
+          </div>
+          <button
+            onClick={() => setBannerVisible(false)}
+            className='ml-4 text-amber-600 hover:text-amber-900 font-bold text-base leading-none'
+            aria-label='Dismiss'
+          >
+            &times;
+          </button>
+        </div>
+      )}
         <nav className='flex justify-between p-5 px-3 '>
             <div className='flex gap-3'>
                 <Link href='/' passHref>
@@ -57,6 +77,7 @@ function Header() {
                          </ul> : null}
                   </div>
         </nav>
+    </div>
   )
 }
 
