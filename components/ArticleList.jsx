@@ -25,7 +25,7 @@ export default function ArticleList({ posts }) {
               </Link>
             </h2>
             <p className="text-sm text-indigo-400">{post.date}</p>
-            <p className="text-gray-700 mt-4">{post.paragraphs[0]}</p>
+            <p className="text-gray-700 mt-4">{post.excerpt}</p>
             <Link
               href={`/blog/${post.slug}`}
               className="mt-4 inline-block bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600"

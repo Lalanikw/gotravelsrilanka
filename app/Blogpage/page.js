@@ -1,6 +1,6 @@
 import React from 'react';
-import ArticleList from '../../components/ArticleList';
-import { getAllPosts } from '../../lib/blog';
+import BlogBrowser from '../../components/BlogBrowser';
+import { getAllPosts, CATEGORIES } from '../../lib/blog';
 
 export const metadata = {
   title: 'Sri Lanka Travel Blog — History, Tradition & Hidden Gems',
@@ -25,7 +25,7 @@ function Blog() {
           <p className="text-3xl md:text-4xl text-white font-semibold text-center mb-5">&#127802;</p>
 
           <div className="w-full">
-            <ArticleList posts={posts} />
+            <BlogBrowser posts={posts} categories={CATEGORIES} />
           </div>
         </div>
       </div>
