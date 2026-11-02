@@ -7,8 +7,14 @@ import Footer from '../components/Footer'
 const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Sri Lanka | Travel Information',
-  description: 'Sri Lanka travel information site. Search for places to see, stay and eat. Find information such as VISA and Driving Licensing. Read about the history and current situation of the Island. Plan for weddings, events and photography. Checkout the major festivals. Reach out for trip tips from locals'
+  metadataBase: new URL('https://gotravelsrilanka.com'),
+  title: {
+    default: 'Sri Lanka Travel Guide — Places, Tips & News | GoTravel Sri Lanka',
+    template: '%s | GoTravel Sri Lanka',
+  },
+  description: 'Plan your Sri Lanka trip: places to see, stay and eat, visa and driving licence info, festivals, safaris, history and trip tips from locals.',
+  alternates: { canonical: 'https://gotravelsrilanka.com' },
+  openGraph: { type: 'website', siteName: 'GoTravel Sri Lanka', url: 'https://gotravelsrilanka.com' },
 }
 
 export default function RootLayout({ 

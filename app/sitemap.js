@@ -1,5 +1,5 @@
 // Served by Next.js at https://gotravelsrilanka.com/sitemap.xml
-const BASE_URL = 'https://gotravelsrilanka.com';
+import { getAllPosts, SITE_URL } from '../lib/blog';
 
 export default function sitemap() {
   const now = new Date();
@@ -10,12 +10,19 @@ export default function sitemap() {
     { path: '/News', priority: 0.8, changeFrequency: 'daily' },
     { path: '/Download', priority: 0.5, changeFrequency: 'monthly' },
     { path: '/ContactUs', priority: 0.5, changeFrequency: 'yearly' },
-  ];
-
-  return routes.map(({ path, priority, changeFrequency }) => ({
-    url: `${BASE_URL}${path}`,
+  ].map(({ path, priority, changeFrequency }) => ({
+    url: `${SITE_URL}${path}`,
     lastModified: now,
     changeFrequency,
     priority,
   }));
+
+  const posts = getAllPosts().map((p) => ({
+    url: `${SITE_URL}/blog/${p.slug}`,
+    lastModified: p.dateISO ? new Date(p.dateISO) : now,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  return [...routes, ...posts];
 }
